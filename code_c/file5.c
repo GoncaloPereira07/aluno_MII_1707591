@@ -4,7 +4,7 @@ int main()
 {
  char *num;
  FILE *fptr;
- if ((fptr = fopen("C:/Users/1707591/Desktop.txt","r")) == NULL){
+ if ((fptr = fopen("C:/Users/1707591/Desktop/Notícia.txt","r")) == NULL){
  printf("Error! opening file");
  exit(1);
  }
